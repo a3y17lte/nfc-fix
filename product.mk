@@ -38,8 +38,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl \
-### libnfc-nci \     ######## Might be Needed,
-### libnfc_nci_jni \ ######## We will see later
+    libnfc-nci \     
+    libnfc_nci_jni \ 
 
 PRODUCT_COPY_FILES += \
     $(NFC_FIX)/vendor/etc/libnfc-sec.conf:system/etc/libnfc-sec-hal.conf \
