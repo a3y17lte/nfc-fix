@@ -70,5 +70,6 @@ PRODUCT_COPY_FILES += \
 #############
 PRODUCT_COPY_FILES += \
     $(NFC_FIX)/etc/nfc/sec_s3nrn81_rfreg.bin:system/etc/nfc/sec_s3nrn81_rfreg.bin \
-    $(NFC_FIX)vendor/firmware/nfc/sec_s3nrn81_firmware.bin:vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+    $(NFC_FIX)/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
+    $(NFC_FIX)/etc/nfc_key:system/etc/nfc_key
 
